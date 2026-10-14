@@ -1,181 +1,265 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Via Libera investor one pager</title>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Fraunces:opsz,wght@9..144,600&amp;display=swap">
-<style>@page{size:816px 1056px;margin:0}body{margin:0}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}</style></head><body>
-<div style="width: 816px; height: 1056px; box-sizing: border-box; overflow: hidden; background: #F7F3E8; color: #14301F; font-family: 'DM Sans', sans-serif; font-size: 12px; line-height: 1.35; display: flex; flex-direction: column;">
+<title>Via Libera: export solutions platform for Italian food</title>
+<meta name="description" content="Via Libera is an export solutions platform for Italian food producers and distributors: find out what applies, check that it is met, keep proof and manage the shipment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+:root{
+  --ink:#14301F;
+  --ink-2:#1F4A30;
+  --cream:#F7F3E8;
+  --paper:#FFFFFF;
+  --line:#DDD6C2;
+  --text:#14301F;
+  --muted:#3F5246;
+  --green:#1B7A44;
+  --light:#34C16B;
+  --soft:#CFE3D3;
+  --radius:12px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;font-size:17px;line-height:1.55}
+h1,h2,h3{margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.serif{font-family:'Fraunces',Georgia,serif;font-weight:600}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:0 0 12px}
 
-<div style="height: 80px; flex-shrink: 0; box-sizing: border-box; padding: 0 40px; background: #14301F; color: #F7F3E8; display: flex; align-items: center; justify-content: space-between;">
-<div style="display: flex; align-items: center; gap: 16px;">
-<div style="width: 44px; height: 44px; border-radius: 22px; background: #1F4A30; display: flex; align-items: center; justify-content: center;">
-<div style="width: 22px; height: 22px; border-radius: 11px; background: #34C16B;"></div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 38px; line-height: 1; letter-spacing: -0.5px;">Via Libera</div>
-<div style="font-size: 14px; color: #CFE3D3;">The export solutions platform for Italian food producers and distributors</div>
-</div>
-</div>
-<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #34C16B;">INVESTOR ONE PAGER</div>
-</div>
-</div>
+/* nav */
+.nav{position:sticky;top:0;z-index:10;background:var(--ink);color:var(--cream)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.mark{width:36px;height:36px;border-radius:50%;background:var(--ink-2);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.mark i{display:block;width:18px;height:18px;border-radius:50%;background:var(--light)}
+.brand span{white-space:nowrap;font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:24px}
+.btn{display:inline-block;background:var(--light);color:var(--ink);font-weight:700;text-decoration:none;border-radius:8px;padding:10px 18px;font-size:15px;line-height:1.2;transition:background .15s,transform .15s}
+.btn:hover{background:#4ad37f}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--light);outline-offset:3px}
+.btn.ghost{background:transparent;color:var(--cream);border:1.5px solid var(--soft)}
+.btn.ghost:hover{background:rgba(255,255,255,.08)}
 
-<div style="flex-grow: 1; box-sizing: border-box; padding: 12px 40px 12px 40px; display: flex; flex-direction: column; gap: 8px;">
+/* hero */
+.hero{background:var(--ink);color:var(--cream);padding:72px 0 80px}
+.hero .eyebrow{color:var(--light)}
+.hero h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:clamp(36px,6vw,64px);line-height:1.05;letter-spacing:-.02em;max-width:18ch}
+.hero p{font-size:clamp(18px,2.2vw,21px);color:var(--soft);max-width:60ch;margin:24px 0 32px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.cta .btn{padding:14px 24px;font-size:16px}
 
-<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px;">
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-radius: 8px; padding: 10px 12px;">
-<div style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; line-height: 1.1; color: #1B7A44;">€59.3bn</div>
-<div style="color: #3F5246;">Italian food and beverage exports, 2025</div>
-</div>
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-radius: 8px; padding: 10px 12px;">
-<div style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; line-height: 1.1; color: #1B7A44;">52,400</div>
-<div style="color: #3F5246;">food manufacturers, 85% micro</div>
-</div>
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-radius: 8px; padding: 10px 12px;">
-<div style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; line-height: 1.1; color: #1B7A44;">45.5%</div>
-<div style="color: #3F5246;">of exporters sell into a single market</div>
-</div>
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-radius: 8px; padding: 10px 12px;">
-<div style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; line-height: 1.1; color: #1B7A44;">2,496</div>
-<div style="color: #3F5246;">new WTO food safety measures in 2025, up 16%</div>
-</div>
-</div>
+/* sections */
+section{padding:64px 0}
+section h2{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:clamp(28px,4vw,40px);line-height:1.1;letter-spacing:-.01em;margin-bottom:12px}
+.lead{color:var(--muted);max-width:62ch;margin:0 0 32px;font-size:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
+.grid{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
 
-<div style="display: flex; gap: 24px;">
-<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">THE PROBLEM</div>
-<div><b>Rules change constantly.</b> A record 2,496 new measures in 2025, inside and outside the EU.</div>
-<div><b>Labels expire.</b> Each shipment needs a label that matches the destination's current rules.</div>
-<div><b>New EU rules keep arriving.</b> Deforestation (EUDR, from Dec 2026), packaging (PPWR, in force) and forced labour (from Dec 2027) reach EU-only sales too.</div>
-<div><b>Paperwork is manual, error prone and time consuming.</b> Per VeriPura's figures, documentation and label causes account for 39% of FDA and 40% of EU TRACES rejections.</div>
-<div><b>Support misses the gap.</b> A €20,000 voucher against a €30,000+ consulting contract buys consultant time, not shipment checking.</div>
-</div>
-<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">THE PLATFORM</div>
-<div style="font-weight: 500;">One place where an exporter finds out what applies, checks that it is met, keeps proof and manages the shipment.</div>
-<div style="font-weight: 700; margin-top: 2px;">Built for three groups</div>
-<div style="display: flex; gap: 8px;"><div style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 4px; background: #34C16B; margin-top: 5px;"></div><div>SMEs that export rarely or never</div></div>
-<div style="display: flex; gap: 8px;"><div style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 4px; background: #34C16B; margin-top: 5px;"></div><div>Single market exporters who wish to expand</div></div>
-<div style="display: flex; gap: 8px;"><div style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 4px; background: #34C16B; margin-top: 5px;"></div><div>Established processors and distributors that want fewer blocked, delayed or returned shipments and lower document-processing labor costs</div></div>
-</div>
-</div>
+/* stats */
+.stats{padding:0;margin-top:-40px;position:relative}
+.stat .n{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:36px;line-height:1.1;color:var(--green)}
+.stat p{margin:6px 0 0;color:var(--muted);font-size:15px;line-height:1.4}
 
-<div style="display: flex; flex-direction: column; gap: 8px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">TOOLS ON THE PLATFORM <span style="font-weight: 400; letter-spacing: 0; color: #3F5246;">(final mix to be determined)</span></div>
-<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px;">
+/* problem */
+.prob h3,.why h3{font-size:18px;margin-bottom:6px}
+.prob p,.why p,.tool p{margin:0;color:var(--muted);font-size:16px}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
-<div style="font-weight: 700; font-size: 13px;">Compliance checking</div>
-</div>
-<div style="color: #3F5246;">Label validation, document identification and verification, incl. Organic, Halal, Kosher. By VeriPura FOOD™.</div>
-</div>
+/* platform groups */
+.groups .card{border-top:3px solid var(--light)}
+.groups p{margin:0;font-size:17px}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7"></path><path d="M10 20a2 2 0 0 0 4 0"></path></svg>
-<div style="font-weight: 700; font-size: 13px;">Alerts and compliance data</div>
-</div>
-<div style="color: #3F5246;">Rule changes and food safety alerts for your products and markets, from sources such as SGS FoodNexus.</div>
-</div>
+/* tools */
+.tool{border-top:3px solid var(--light);padding:20px 22px}
+.tool .t{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.tool h3{font-size:18px}
+.tool svg{width:24px;height:24px;flex-shrink:0}
+.note{color:var(--muted);font-size:15px;margin-top:20px}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
-<div style="font-weight: 700; font-size: 13px;">Shipment tracking</div>
-</div>
-<div style="color: #3F5246;">Status of each shipment in one view.</div>
-</div>
+/* beyond */
+.bars{display:grid;grid-template-columns:minmax(120px,170px) 1fr;gap:14px 16px;align-items:center;max-width:720px}
+.track{display:flex;align-items:center;gap:12px}
+.bar{height:14px;background:var(--green);border-radius:3px}
+.val{font-weight:700;white-space:nowrap;min-width:64px}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"></path></svg>
-<div style="font-weight: 700; font-size: 13px;">Digital asset manager</div>
-</div>
-<div style="color: #3F5246;">Labels, certificates, test reports, plus packaging and supplier declarations for new EU rules, in one place.</div>
-</div>
+/* plan */
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;counter-reset:s;list-style:none;margin:0;padding:0}
+.steps li{counter-increment:s;position:relative;padding-top:48px}
+.steps li::before{content:counter(s);position:absolute;top:0;left:0;width:34px;height:34px;border-radius:50%;background:var(--light);color:var(--ink);font-weight:700;display:flex;align-items:center;justify-content:center}
+.steps li::after{content:"";position:absolute;top:16px;left:46px;right:-4px;height:2px;background:#BFD8C5}
+.steps li:last-child::after{display:none}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"></path><path d="M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"></path></svg>
-<div style="font-weight: 700; font-size: 13px;">Testing and certification</div>
-</div>
-<div style="color: #3F5246;">Direct links to laboratories and certification bodies when a shipment needs them.</div>
-</div>
+/* contact */
+.contact{background:var(--ink);color:var(--cream);padding:56px 0}
+.contact h2{color:var(--cream)}
+.contact p{color:var(--soft);margin:0 0 24px}
+.contact .row{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;margin-bottom:28px}
+.contact .row a:not(.btn){font-size:18px}
+.small{font-size:14px;color:#A9C4B0;margin:0}
+.small b{color:var(--cream)}
 
-<div style="background: #FFFFFF; border: 1px solid #DDD6C2; border-top: 3px solid #34C16B; border-radius: 8px; padding: 9px 12px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 3px;">
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1"></path><path d="M16 5a3 3 0 0 1 0 6"></path><path d="M21 20v-1a5 5 0 0 0-3-4.5"></path></svg>
-<div style="font-weight: 700; font-size: 13px;">Export consultants</div>
-</div>
-<div style="color: #3F5246;">Access to temporary export managers, who gain a systematic checking tool.</div>
-</div>
+@media (max-width:900px){
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .steps{grid-template-columns:1fr;gap:20px}
+  .steps li{padding:0 0 0 52px;min-height:34px}
+  .steps li::after{top:36px;bottom:-20px;left:16px;right:auto;width:2px;height:auto}
+}
+@media (max-width:600px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  section{padding:48px 0}
+  .hero{padding:48px 0 64px}
+  .g4,.g3,.g2{grid-template-columns:1fr}
+  .nav .btn{padding:9px 12px;font-size:13px}
+  .brand span{font-size:21px}
+  .bars{grid-template-columns:1fr;gap:4px}
+  .bars .lab{margin-top:10px;font-weight:500}
+  .stats{margin-top:-32px}
+}
+</style>
+</head>
+<body>
 
-</div>
-</div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Via Libera home"><span class="mark" aria-hidden="true"><i></i></span><span>Via Libera</span></a>
+    <a class="btn" href="https://calendar.app.google/N8YrUb835W36aHGBA" target="_blank" rel="noopener">Schedule a conversation</a>
+  </div>
+</header>
 
-<div style="display: flex; gap: 24px;">
-<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">WHY IT CAN WIN</div>
-<div><b>One place instead of many.</b> No tool found combines destination rules, checks, alerts and tracking for Italian exporters.</div>
-<div><b>A working core tool.</b> VeriPura FOOD™, built on VeriPura CORE™, has run on real documents from multiple countries. US provisional patent application 64/088,697.</div>
-<div><b>Partner ecosystem.</b> Data providers, labs and consultants become channels, not competitors.</div>
-<div><b>Stronger with every shipment.</b> Owned by a new start-up that licenses VeriPura technology, which VeriPura hosts.</div>
-</div>
-<div style="flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">BEYOND FOOD</div>
-<div>The same platform can add agricultural products, supplements, pet food and more. Italian exports, 2025:</div>
-<div style="display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 4px 8px; align-items: center;">
-<div>Pharmaceuticals</div>
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 100%; height: 10px; background: #1B7A44; border-radius: 2px;"></div><div style="flex-shrink: 0; width: 44px; font-weight: 700;">€69.2bn</div></div>
-<div>Chemicals</div>
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 58%; height: 10px; background: #1B7A44; border-radius: 2px;"></div><div style="flex-shrink: 0; width: 44px; font-weight: 700;">€40.2bn</div></div>
-<div>Textiles, apparel</div>
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 53%; height: 10px; background: #1B7A44; border-radius: 2px;"></div><div style="flex-shrink: 0; width: 44px; font-weight: 700;">€36.9bn</div></div>
-<div>Cosmetics</div>
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 12%; height: 10px; background: #1B7A44; border-radius: 2px;"></div><div style="flex-shrink: 0; width: 44px; font-weight: 700;">€8.6bn</div></div>
-</div>
-</div>
-</div>
+<main id="top">
 
-<div style="display: flex; flex-direction: column; gap: 8px;">
-<div style="font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #1B7A44;">THE PLAN <span style="font-weight: 400; letter-spacing: 0; color: #3F5246;">(funding released in stages with measurable gates)</span></div>
-<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px;">
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 24px; height: 24px; border-radius: 12px; background: #34C16B; color: #14301F; font-weight: 700; display: flex; align-items: center; justify-content: center;">1</div><div style="flex-grow: 1; height: 2px; background: #BFD8C5;"></div></div>
-<div>Prove demand and willingness to pay</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 24px; height: 24px; border-radius: 12px; background: #34C16B; color: #14301F; font-weight: 700; display: flex; align-items: center; justify-content: center;">2</div><div style="flex-grow: 1; height: 2px; background: #BFD8C5;"></div></div>
-<div>Build the platform layer MVP</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 24px; height: 24px; border-radius: 12px; background: #34C16B; color: #14301F; font-weight: 700; display: flex; align-items: center; justify-content: center;">3</div><div style="flex-grow: 1; height: 2px; background: #BFD8C5;"></div></div>
-<div>Pilot in shadow mode on real shipments</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 24px; height: 24px; border-radius: 12px; background: #34C16B; color: #14301F; font-weight: 700; display: flex; align-items: center; justify-content: center;">4</div><div style="flex-grow: 1; height: 2px; background: #BFD8C5;"></div></div>
-<div>Launch to first customers and partners</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 4px;">
-<div style="display: flex; align-items: center; gap: 6px;"><div style="width: 24px; height: 24px; border-radius: 12px; background: #34C16B; color: #14301F; font-weight: 700; display: flex; align-items: center; justify-content: center;">5</div><div style="flex-grow: 1; height: 2px; background: #BFD8C5;"></div></div>
-<div>Extend to more tools and industries</div>
-</div>
-</div>
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Investor overview</p>
+    <h1>The export solutions platform for Italian food</h1>
+    <p>One place where an exporter finds out what applies, checks that it is met, keeps proof and manages the shipment.</p>
+    <div class="cta">
+      <a class="btn" href="https://calendar.app.google/N8YrUb835W36aHGBA" target="_blank" rel="noopener">Schedule a conversation</a>
+      <a class="btn ghost" href="mailto:thomas@veripura.com">Email Thomas</a>
+    </div>
+  </div>
 </div>
 
-<div style="margin-top: auto; border-top: 1px solid #DDD6C2; padding-top: 8px; color: #3F5246; font-size: 12px;">
-<b style="color: #14301F;">To be determined:</b> target markets, pricing, funding amount, timing and deal terms. Sources: Istat-ICE, Nomisma, WTO, Infomercatiesteri, Cosmetica Italia, VeriPura analysis.
-<div style="margin-top: 6px; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #14301F; color: #F7F3E8; border-radius: 8px; padding: 8px 16px;">
-<div style="font-weight: 700; font-size: 13px;">Contact: Thomas Scott Oberlin</div>
-<div style="display: flex; align-items: center; gap: 16px; font-size: 13px;">
-<a href="mailto:thomas@veripura.com" style="color: #F7F3E8; text-decoration: underline;">thomas@veripura.com</a>
-<a href="tel:+393427784869" style="color: #F7F3E8; text-decoration: none;">+39 342 778 4869</a>
-<a href="https://calendar.app.google/N8YrUb835W36aHGBA" target="_blank" rel="noopener" style="background: #34C16B; color: #14301F; font-weight: 700; text-decoration: none; border-radius: 6px; padding: 4px 12px;">Schedule a conversation</a>
-</div>
-</div>
+<div class="stats">
+  <div class="wrap">
+    <div class="grid g4">
+      <div class="card stat"><div class="n">€59.3bn</div><p>Italian food and beverage exports, 2025</p></div>
+      <div class="card stat"><div class="n">52,400</div><p>food manufacturers, 85% micro</p></div>
+      <div class="card stat"><div class="n">45.5%</div><p>of exporters sell into a single market</p></div>
+      <div class="card stat"><div class="n">2,496</div><p>new WTO food safety measures in 2025, up 16%</p></div>
+    </div>
+  </div>
 </div>
 
-</div>
-</div>
-</body></html>
+<section id="problem">
+  <div class="wrap">
+    <p class="eyebrow">The problem</p>
+    <h2>Exporting food is a rules problem before it is a sales problem</h2>
+    <p class="lead">The rules keep changing, inside the EU as well as outside it.</p>
+    <div class="grid g3 prob">
+      <div class="card"><h3>Rules change constantly</h3><p>A record 2,496 new measures in 2025, inside and outside the EU.</p></div>
+      <div class="card"><h3>Labels expire</h3><p>Each shipment needs a label that matches the destination's current rules.</p></div>
+      <div class="card"><h3>New EU rules keep arriving</h3><p>Deforestation (EUDR, from Dec 2026), packaging (PPWR, in force) and forced labour (from Dec 2027) reach EU-only sales too.</p></div>
+      <div class="card"><h3>Paperwork is manual, error prone and time consuming</h3><p>Per VeriPura's figures, documentation and label causes account for 39% of FDA and 40% of EU TRACES rejections.</p></div>
+      <div class="card"><h3>Support misses the gap</h3><p>A €20,000 voucher against a €30,000+ consulting contract buys consultant time, not shipment checking.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="platform" style="padding-top:0">
+  <div class="wrap">
+    <p class="eyebrow">The platform</p>
+    <h2>Built for three groups</h2>
+    <p class="lead">One platform for exporters at every stage.</p>
+    <div class="grid g3 groups">
+      <div class="card"><p>SMEs that export rarely or never</p></div>
+      <div class="card"><p>Single market exporters who wish to expand</p></div>
+      <div class="card"><p>Established processors and distributors that want fewer blocked, delayed or returned shipments and lower document-processing labor costs</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="tools" style="background:#EFE9D8">
+  <div class="wrap">
+    <p class="eyebrow">Tools on the platform</p>
+    <h2>Everything an exporter juggles, in one place</h2>
+    <p class="lead">The final mix of tools is to be determined.</p>
+    <div class="grid g3">
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><h3>Compliance checking</h3></div><p>Label validation, document identification and verification, incl. Organic, Halal, Kosher. By VeriPura FOOD™.</p></div>
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7"/><path d="M10 20a2 2 0 0 0 4 0"/></svg><h3>Alerts and compliance data</h3></div><p>Rule changes and food safety alerts for your products and markets, from sources such as SGS FoodNexus.</p></div>
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><h3>Shipment tracking</h3></div><p>Status of each shipment in one view.</p></div>
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg><h3>Digital asset manager</h3></div><p>Labels, certificates, test reports, plus packaging and supplier declarations for new EU rules, in one place.</p></div>
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"/><path d="M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/></svg><h3>Testing and certification</h3></div><p>Direct links to laboratories and certification bodies when a shipment needs them.</p></div>
+      <div class="card tool"><div class="t"><svg viewBox="0 0 24 24" fill="none" stroke="#1B7A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v1"/><path d="M16 5a3 3 0 0 1 0 6"/><path d="M21 20v-1a5 5 0 0 0-3-4.5"/></svg><h3>Export consultants</h3></div><p>Access to temporary export managers, who gain a systematic checking tool.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <p class="eyebrow">Why it can win</p>
+    <h2>A platform, not another point tool</h2>
+    <p class="lead">Existing tools cover pieces of the problem. The platform brings them together.</p>
+    <div class="grid g2 why">
+      <div class="card"><h3>One place instead of many</h3><p>No tool found combines destination rules, checks, alerts and tracking for Italian exporters.</p></div>
+      <div class="card"><h3>A working core tool</h3><p>VeriPura FOOD™, built on VeriPura CORE™, has run on real documents from multiple countries. US provisional patent application 64/088,697.</p></div>
+      <div class="card"><h3>Partner ecosystem</h3><p>Data providers, labs and consultants become channels, not competitors.</p></div>
+      <div class="card"><h3>Stronger with every shipment</h3><p>Owned by a new start-up that licenses VeriPura technology, which VeriPura hosts.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="beyond" style="background:#EFE9D8">
+  <div class="wrap">
+    <p class="eyebrow">Beyond food</p>
+    <h2>The same platform can add more categories</h2>
+    <p class="lead">Agricultural products, supplements, pet food and more. Italian exports, 2025:</p>
+    <div class="bars" role="list">
+      <div class="lab" role="listitem">Pharmaceuticals</div><div class="track"><div class="bar" style="width:100%"></div><span class="val">€69.2bn</span></div>
+      <div class="lab">Chemicals</div><div class="track"><div class="bar" style="width:58%"></div><span class="val">€40.2bn</span></div>
+      <div class="lab">Textiles, apparel</div><div class="track"><div class="bar" style="width:53%"></div><span class="val">€36.9bn</span></div>
+      <div class="lab">Cosmetics</div><div class="track"><div class="bar" style="width:12%"></div><span class="val">€8.6bn</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="wrap">
+    <p class="eyebrow">The plan</p>
+    <h2 style="margin-bottom:32px">Funding released in stages with measurable gates</h2>
+    <ol class="steps">
+      <li>Prove demand and willingness to pay</li>
+      <li>Build the platform layer MVP</li>
+      <li>Pilot in shadow mode on real shipments</li>
+      <li>Launch to first customers and partners</li>
+      <li>Extend to more tools and industries</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <h2>Let's talk</h2>
+    <p>Thomas Scott Oberlin</p>
+    <div class="row">
+      <a href="mailto:thomas@veripura.com">thomas@veripura.com</a>
+      <a href="tel:+393427784869">+39 342 778 4869</a>
+      <a class="btn" href="https://calendar.app.google/N8YrUb835W36aHGBA" target="_blank" rel="noopener">Schedule a conversation</a>
+    </div>
+    <p class="small"><b>To be determined:</b> target markets, pricing, funding amount, timing and deal terms.</p>
+    <p class="small" style="margin-top:6px">Sources: Istat-ICE, Nomisma, WTO, Infomercatiesteri, Cosmetica Italia, VeriPura analysis.</p>
+  </div>
+</footer>
+
+</body>
+</html>
